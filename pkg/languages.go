@@ -1,4 +1,4 @@
-package musicbrainz_wrapper
+package musicbrainzWrapper
 
 var countryToLang = map[string]string{
 	"AF": "ps", "AL": "sq", "DZ": "ar", "AS": "sm", "AD": "ca",

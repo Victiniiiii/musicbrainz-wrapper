@@ -1,4 +1,4 @@
-package musicbrainz_wrapper
+package musicbrainzWrapper
 
 type RecordingSearchResponse struct {
 	Recordings []Recording `json:"recordings"`

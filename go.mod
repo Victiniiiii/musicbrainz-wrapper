@@ -1,3 +1,3 @@
-module github.com/Victiniiiii/musicbrainz_wrapper
+module github.com/Victiniiiii/musicbrainz-wrapper
 
 go 1.22

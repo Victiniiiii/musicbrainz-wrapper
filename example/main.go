@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	musicbrainz_wrapper "github.com/Victiniiiii/musicbrainz_wrapper/pkg"
+	musicbrainzWrapper "github.com/Victiniiiii/musicbrainz-wrapper/pkg"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 	}
 
 	for _, s := range songs {
-		artist, genre, lang := musicbrainz_wrapper.DetectMetadata(s)
+		artist, genre, lang := musicbrainzWrapper.DetectMetadata(s)
 		fmt.Printf("Song: %q, Artist: %s, Genre: %s, Language: %s\n", s, artist, genre, lang)
 	}
 }
