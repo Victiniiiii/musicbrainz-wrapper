@@ -32,8 +32,12 @@ func getArtistData(artistID string) (genre string, language string) {
 	}
 
 	lang := "unknown"
-	if l, ok := countryToLang[artist.Country]; ok {
-		lang = l
+	if langCode, ok := countryToLang[artist.Country]; ok {
+		if fullLang, exists := langCodeToName[langCode]; exists {
+			lang = fullLang
+		} else {
+			lang = langCode
+		}
 	}
 
 	g := "unknown"
@@ -81,19 +85,23 @@ func DetectMetadata(title string) (artist string, genre string, language string)
 	}
 
 	var candidates []candidate
-
 	for _, rec := range data.Recordings {
 		if len(rec.ArtistCredit) == 0 {
 			continue
 		}
+
 		aName := rec.ArtistCredit[0].Name
 		aID := rec.ArtistCredit[0].Artist.ID
 		g, l := getArtistData(aID)
 
 		if l == "unknown" {
 			for _, r := range rec.Releases {
-				if rl, ok := countryToLang[r.Country]; ok {
-					l = rl
+				if langCode, ok := countryToLang[r.Country]; ok {
+					if fullLang, exists := langCodeToName[langCode]; exists {
+						l = fullLang
+					} else {
+						l = langCode
+					}
 					break
 				}
 			}

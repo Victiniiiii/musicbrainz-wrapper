@@ -1,5 +1,24 @@
 package musicbrainzWrapper
 
+var langCodeToName = map[string]string{
+	"am": "Amharic", "ar": "Arabic", "az": "Azerbaijani", "be": "Belarusian", "bg": "Bulgarian",
+	"bi": "Bislama", "bn": "Bengali", "bs": "Bosnian", "ca": "Catalan", "cs": "Czech",
+	"da": "Danish", "de": "German", "dv": "Dhivehi", "dz": "Dzongkha", "el": "Greek",
+	"en": "English", "es": "Spanish", "et": "Estonian", "fa": "Persian", "fi": "Finnish",
+	"fo": "Faroese", "fr": "French", "he": "Hebrew", "hi": "Hindi", "hr": "Croatian",
+	"ht": "Haitian Creole", "hu": "Hungarian", "hy": "Armenian", "id": "Indonesian", "is": "Icelandic",
+	"it": "Italian", "ja": "Japanese", "ka": "Georgian", "kk": "Kazakh", "kl": "Greenlandic",
+	"km": "Khmer", "ko": "Korean", "ky": "Kyrgyz", "la": "Latin", "lb": "Luxembourgish",
+	"lo": "Lao", "lt": "Lithuanian", "lv": "Latvian", "mg": "Malagasy", "mk": "Macedonian",
+	"mn": "Mongolian", "ms": "Malay", "mt": "Maltese", "my": "Burmese", "ne": "Nepali",
+	"nl": "Dutch", "no": "Norwegian", "pl": "Polish", "ps": "Pashto", "pt": "Portuguese",
+	"ro": "Romanian", "rn": "Kirundi", "ru": "Russian", "rw": "Kinyarwanda", "si": "Sinhala",
+	"sk": "Slovak", "sl": "Slovenian", "sm": "Samoan", "so": "Somali", "sq": "Albanian",
+	"sr": "Serbian", "ss": "Swazi", "sv": "Swedish", "sw": "Swahili", "tg": "Tajik",
+	"th": "Thai", "ti": "Tigrinya", "tk": "Turkmen", "tr": "Turkish", "uk": "Ukrainian",
+	"ur": "Urdu", "uz": "Uzbek", "vi": "Vietnamese", "zh": "Chinese",
+}
+
 var countryToLang = map[string]string{
 	"AF": "ps", "AL": "sq", "DZ": "ar", "AS": "sm", "AD": "ca",
 	"AO": "pt", "AI": "en", "AQ": "en", "AG": "en", "AR": "es",

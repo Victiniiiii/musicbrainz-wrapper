@@ -1,29 +1,27 @@
 CGO_ENABLED=0 go run example/main.go
 
-Song: "Tamirci Çırağı", Artist: Cem Karaca, Genre: anatolian rock, Language: tr
-Song: "Despacito", Artist: Gracia Montes, Genre: copla, Language: es
-Song: "La Vie en Rose", Artist: Édith Piaf, Genre: cabaret, Language: fr
-Song: "昨日よりもっと好き", Artist: Smiling Lions, Genre: related-akb48, Language: ja
-Song: "güzel günler göreceğiz çocuklar", Artist: Edip Akbayram, Genre: anatolian rock, Language: tr
-Song: "Ahmet Beyin Ceketi", Artist: Barış Manço, Genre: anatolian rock, Language: tr
-Song: "Bohemian Rhapsody", Artist: Queen, Genre: art rock, Language: en
-Song: "Gangnam Style", Artist: Jayesslee, Genre: acoustic pop, Language: en
-Song: "Hallelujah", Artist: Jonathan Settel, Genre: messianic jew, Language: en
-Song: "Lágrimas Negras", Artist: Pandora, Genre: latin, Language: es
-Song: "Feliz Navidad", Artist: The Ventures, Genre: pop rock, Language: en
-Song: "Merci Chérie", Artist: Ronnie Tober, Genre: aln-sh, Language: nl
-Song: "Dragostea Din Tei", Artist: Otto Waalkes, Genre: comedy, Language: de
-Song: "Non, je ne regrette rien", Artist: Brødrene Olsen, Genre: aln-sh, Language: da
-Song: "O Sole Mio", Artist: Gianni Vezzosi, Genre: gianni vezzosi, Language: it
-Song: "Ai Se Eu Te Pego", Artist: Michel Teló, Genre: pop, Language: pt
-Song: "Kimi no Na wa", Artist: 高木正勝, Genre: dance and electronica, Language: ja
-Song: "Bésame Mucho", Artist: The Beatles, Genre: 1960s, Language: en
-Song: "Volare", Artist: Punkreas, Genre: italian, Language: it
-Song: "Kazma", Artist: Barış Manço, Genre: anatolian rock, Language: tr
-Song: "Sakura Sakura", Artist: Lily Laskine, Genre: classic, Language: fr
-Song: "El Perdón", Artist: Los Ángeles Azules, Genre: cumbia, Language: es
-Song: "La Cumparsita", Artist: Xavier Cugat, Genre: 2008 universal fire victim, Language: es
-Song: "Für Elise", Artist: Richard Clayderman, Genre: easy listening, Language: fr
-Song: "Kommt ein Vogel geflogen", Artist: Heintje, Genre: dutch, Language: nl
-Song: "Yeniden de sevebiliriz akdeniz", Artist: Ayna, Genre: turkish, Language: tr
-Song: "Viva La Vida", Artist: Captain Jack, Genre: bubblegum dance, Language: de
+Song: "Tamirci Çırağı", Artist: Cem Karaca, Genre: anatolian rock, Language: Turkish
+Song: "Despacito", Artist: Gracia Montes, Genre: copla, Language: Spanish
+Song: "La Vie en Rose", Artist: Édith Piaf, Genre: cabaret, Language: French
+Song: "昨日よりもっと好き", Artist: Smiling Lions, Genre: related-akb48, Language: Japanese
+Song: "güzel günler göreceğiz çocuklar", Artist: Edip Akbayram, Genre: anatolian rock, Language: Turkish
+Song: "Ahmet Beyin Ceketi", Artist: Barış Manço, Genre: anatolian rock, Language: Turkish
+Song: "Bohemian Rhapsody", Artist: California Guitar Trio, Genre: acoustic rock, Language: English
+Song: "Gangnam Style", Artist: PSY, Genre: 1st gen k-pop, Language: Korean
+Song: "Hallelujah", Artist: Jonathan Settel, Genre: messianic jew, Language: English
+Song: "Feliz Navidad", Artist: Gary Hoey, Genre: rock, Language: English
+Song: "Merci Chérie", Artist: Ronnie Tober, Genre: aln-sh, Language: Dutch
+Song: "Dragostea Din Tei", Artist: Haiducii, Genre: italian, Language: Romanian
+Song: "Non, je ne regrette rien", Artist: Brødrene Olsen, Genre: aln-sh, Language: Danish
+Song: "O Sole Mio", Artist: Gianni Vezzosi, Genre: gianni vezzosi, Language: Italian
+Song: "Ai Se Eu Te Pego", Artist: Michel Teló, Genre: pop, Language: Portuguese
+Song: "Kimi no Na wa", Artist: 高木正勝, Genre: dance and electronica, Language: Japanese
+Song: "Bésame Mucho", Artist: The Beatles, Genre: 1960s, Language: English
+Song: "Volare", Artist: Joey DeFrancesco, Genre: bebop, Language: English
+Song: "Kazma", Artist: Barış Manço, Genre: anatolian rock, Language: Turkish
+Song: "Sakura Sakura", Artist: Lily Laskine, Genre: classic, Language: French
+Song: "El Perdón", Artist: Los Ángeles Azules, Genre: cumbia, Language: Spanish
+Song: "Für Elise", Artist: The Ventures, Genre: pop rock, Language: English
+Song: "Kommt ein Vogel geflogen", Artist: Nana Mouskouri, Genre: classical, Language: Greek
+Song: "Yeniden de sevebiliriz akdeniz", Artist: Ayna, Genre: turkish, Language: Turkish
+Song: "Viva La Vida", Artist: Michel Fugain, Genre: ballad, Language: French
